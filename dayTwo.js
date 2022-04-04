@@ -1,23 +1,36 @@
 let alunoDanielPrimeiraNota = 10;
-let alunoDanielSegundaNota = 8.5;
-let alunoDanielTerceiraNota = 7.0;
+let alunoDanielSegundaNota = 6.5;
+let alunoDanielTerceiraNota = 5.0;
 let alunoDanielQuartaNota = 5.5;
 
 let somaDasNotas = alunoDanielPrimeiraNota + alunoDanielSegundaNota + alunoDanielTerceiraNota + alunoDanielQuartaNota;
 
-/* const mediaDasNotas = () => {
+const mediaDasNotas = () => {
 
     mediaFinal = (somaDasNotas) / 4;
 
-    console.log (mediaFinal, typeof mediaFinal);
+    console.log (`A sua média final foi ${mediaFinal}. É do tipo ${typeof mediaFinal}!`);
+
+
+    if (mediaFinal >= 7.0) {
+
+        console.log ("Parabéns! Você foi aprovado!")
+        
+    } else {
+        
+        console.log ("Reprovado! Você não atigiu a média. Estude mais!")
+
+    }
 
 }
-mediaDasNotas(); */
+mediaDasNotas();
 
 
-function mediaNotas (mf) {
 
-    mf = (somaDasNotas) / 4;
-    console.log (mf);
+/* function mediaNotas (mf) {
+
+    mf = (somaDasNotas);
+    console.log (`O resultado desta operação de soma, que mescla tipos de variáveis é ${mf}`);
+
 }
-mediaNotas();
+mediaNotas(); */

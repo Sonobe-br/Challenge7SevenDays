@@ -9,7 +9,7 @@ const mediaDasNotas = () => {
 
     mediaFinal = (somaDasNotas) / 4;
 
-    console.log (`A sua média final foi ${mediaFinal}. É do tipo ${typeof mediaFinal}!`);
+    console.log (`A sua média final foi ${mediaFinal}, tipo ${typeof mediaFinal}`);
 
 
     if (mediaFinal >= 7.0) {
@@ -18,7 +18,7 @@ const mediaDasNotas = () => {
         
     } else {
         
-        console.log ("Reprovado! Você não atigiu a média. Estude mais!")
+        console.log ("Você foi Reprovado! Não atigiu a média. Estude mais!")
 
     }
 

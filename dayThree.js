@@ -23,8 +23,7 @@ const areaQuadrada = () => {
     return resultado;
 }
 areaQuadrada();
-console.log(`O total de área da sala de treinamento é ${resultado} m²`);
-
+console.log(`1) O total de área da sala de treinamento é ${resultado} m²`);
 
 
 
@@ -47,7 +46,41 @@ const metroCubico =  () => {
 
     resultadoMetroCubico = (somaLados) * tanqueAltura;
     return resultadoMetroCubico;
-
+    
 }
 metroCubico();
-console.log (`Este tanque tem ${resultadoMetroCubico} m³`);
+console.log (`2) Este tanque tem ${resultadoMetroCubico} m³`);
+
+
+
+/* 
+*
+* Calculo de Área Linear 
+*
+*/
+
+let areaFabricaComprimentoA = 50.0;
+let areaFabricaComprimentoB = 27.0;
+let areaFabricaComprimentoC = 15.0;
+let areaFabricaComprimentoD = 2.30;
+const fabrica = (areaFabricaComprimentoA + areaFabricaComprimentoB + areaFabricaComprimentoC + areaFabricaComprimentoD);
+
+let areaFerramentariaA = 12.85;
+let areaFerramentariaB = 12.85;
+let areaFerramentariaC = 2.15;
+const ferramentaria = (areaFerramentariaA + areaFerramentariaB + areaFerramentariaC);
+
+let estacionamentoLadoA = 39.85;
+let estacionamentoLadoB = 29.90;
+const estacionamento = (estacionamentoLadoA + estacionamentoLadoB);
+
+const somaDasAreas = (fabrica + ferramentaria + estacionamento);
+
+const metrosLineares = () => {
+
+    resultadoDaSoma = somaDasAreas;
+    return resultadoDaSoma;
+
+}
+metrosLineares();
+console.log(`3) O quatitativo de metros lineares levantandos no dia 04/04/2022 é de ${resultadoDaSoma}`);
